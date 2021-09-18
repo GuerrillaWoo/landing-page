@@ -10,7 +10,8 @@
     --hero-main-size: 900 48px var(--ubuntu);
     --header-logo-text: 600 24px var(--ubuntu);
     --info-header-text: 900 36px var(--ubuntu);
-    --quote-text: italic 300 36px var(--ubuntu);
+    --quote-text: italic 36px var(--ubuntu);
+    --section-padding: 1em 150px;
 }
 
 body {
@@ -29,9 +30,9 @@ a:hover {
 }
 
 .header {
+    padding: var(--section-padding);
     display: flex;
     justify-content: space-between;
-    padding: 1em 150px;
     background-color: var(--dark-blue);
 }
 
@@ -45,3 +46,96 @@ a:hover {
     gap: 16px;
 }
 
+.hero {
+    padding: var(--section-padding);
+    background-color: var(--dark-blue);
+    height: 400px;
+    display: flex;
+    gap: 1em;
+}
+
+.hero-left h1 {
+    font: var(--hero-main-size);
+    color: var(--prim-white);
+}
+
+.hero-left p {
+    color: var(--sec-white);
+}
+
+.hero-left button {
+    margin: 8px 0;
+    background-color: var(--light-blue);
+    color: var(--prim-white);
+    text-align: center;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-right img {
+    min-width: 300px;
+    min-height: 250px;
+    background-color: #eee;
+}
+
+.info {
+    padding: var(--section-padding);
+    background-color: var(--prim-white);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    flex-flow: column wrap;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    padding: var(--section-padding);
+    background-color: var(--sec-white);
+}
+
+.quote p:first-child {
+    font: var(--quote-text);
+}
+
+.quote p:last-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    color: var(--prim-white);
+    background-color: var(--light-blue);
+    border-radius: 5px;
+    margin: 50px 150px;
+    padding: 25px 50px;
+    column-gap: 1em;
+}
+
+.banner h3 {
+    font-weight: 700;
+}
+
+.banner button {
+    box-sizing: border-box;
+    background-color: var(--light-blue);
+    color: var(--prim-white);
+    border: 2px solid var(--prim-white);
+    border-radius: 5px;
+    padding: 4px;
+    width: 120px;
+}
+
+footer {
+    background-color: var(--dark-blue);
+    color: var(--sec-white);
+    text-align: center;
+    padding: var(--section-padding);
+}
