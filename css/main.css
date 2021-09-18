@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+    --root-font: 18px 'Ubuntu', sans-serif;
+    --dark-blue: #1F2937;
+    --prim-white: #F9FAF8;
+    --sec-white: #E5E7EB;
+    --button-color: #3882F6;
+    --hero-main-size: 900 48px inherit;
+    --header-logo-text: 600 24px inherit;
+    --info-header-text: 900 36px inherit;
+    --quote-text: italic 300 36px inherit;
+}
+
+body {
+    font: var(--root-font);
+    display: flex;
+    flex-flow: column nowrap;
+}
