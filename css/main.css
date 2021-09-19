@@ -11,7 +11,7 @@
     --header-logo-text: 600 24px var(--ubuntu);
     --info-header-text: 900 36px var(--ubuntu);
     --quote-text: italic 36px var(--ubuntu);
-    --section-padding: 1em 150px;
+    --section-padding: 3em 180px;
 }
 
 body {
@@ -30,7 +30,7 @@ a:hover {
 }
 
 .header {
-    padding: var(--section-padding);
+    padding: 1em 180px;
     display: flex;
     justify-content: space-between;
     background-color: var(--dark-blue);
@@ -57,6 +57,7 @@ a:hover {
 .hero-left h1 {
     font: var(--hero-main-size);
     color: var(--prim-white);
+    flex: 1;
 }
 
 .hero-left p {
@@ -74,7 +75,7 @@ a:hover {
 }
 
 .hero-right img {
-    min-width: 300px;
+    width: 500px;
     min-height: 250px;
     background-color: #eee;
 }
@@ -82,25 +83,52 @@ a:hover {
 .info {
     padding: var(--section-padding);
     background-color: var(--prim-white);
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
 }
 
-.cards {
+.info #info-title {
+    font: var(--info-header-text);
+    color: var(--dark-blue);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.info-main {
     display: flex;
-    flex-flow: column wrap;
-    width: 150px;
-    height: 150px;
+    justify-content: center;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    max-width: 200px;
+    height: 200px;
+}
+
+.card-img {
+    min-width: 150px;
+    min-height: 150px;
+    border: solid 5px var(--light-blue);
+    border-radius: 10px;
+}
+
+.card-txt {
+    text-align: center;
+    color: #1f1f1f;
+    opacity: 0.8;
 }
 
 .quote {
-    padding: var(--section-padding);
+    padding: 100px 250px;
     background-color: var(--sec-white);
 }
 
 .quote p:first-child {
     font: var(--quote-text);
+    margin-bottom: 1em;
 }
 
 .quote p:last-child {
