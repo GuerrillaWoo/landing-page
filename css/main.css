@@ -9,7 +9,7 @@
     --header-logo-text: 600 24px var(--ubuntu);
     --info-header-text: 900 36px var(--ubuntu);
     --quote-text: italic 200 36px var(--ubuntu);
-    --section-padding: 4em 180px;
+    --section-padding: 3em 180px;
 }
 
 body {
