@@ -2,10 +2,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .header {
@@ -102,4 +102,5 @@ button, .action-section {
 footer {
     background-color: #1F2937;
     color: #E5E7EB;
+    text-align: center;
 }
