@@ -9,9 +9,10 @@ body {
 }
 
 .header {
-    padding: 24px 144px;
+    padding: 24px 96px;
     background-color: #1F2937;
     display: flex;
+    gap: 32px;
     justify-content: space-between;
 }
 
@@ -27,19 +28,36 @@ body {
 }
 
 .hero-section {
+    justify-content: center;
     background-color: #1F2937;
-    padding: 144px;
-    /* flex-flow: row wrap; */
+    flex-flow: row wrap;
+    padding: 96px;
+    gap: 36px;
+}
+
+.hero-section > * {
+    flex: 1;
 }
 
 .hero-content {
-    flex-shrink: 2;
-    margin-left: 144px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.hero-content button {
+    color: #F9FAF8;
+    font-weight: 700;
+    border: 1px none;
+    border-radius: 6px;
+    padding: 6px 30px;
 }
 
 .hero-image {
-    width: 432px;
-    height: 144px;
+    max-width: 400px;
+    height: 212px;
     background-color: grey;
 }
 
