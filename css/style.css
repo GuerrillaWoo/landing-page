@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    margin: 16px 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list {
+    display: flex;
+    gap: 18px;
+}
+
+.main-content, .card-container, 
+.quote-container, .action-container {
+    flex: 1;
+    display: flex;
+    border: 2px solid black;
+}
