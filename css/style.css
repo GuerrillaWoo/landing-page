@@ -43,6 +43,52 @@ body {
     background-color: grey;
 }
 
+.card-section {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 144px;
+}
+
+.card-container {
+    margin-top: 48px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    gap: 36px;
+}
+
+.cards {
+    width: 200px;
+    text-align: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15%;
+}
+
+.quote-section {
+    padding: 318px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-section > :first-child {
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 18px;
+}
+
+.attribution {
+    align-self: flex-end;
+    font-size: 1px;
+    font-weight: 700;
+}
+
 .action-section {
     margin: 144px;
 }
