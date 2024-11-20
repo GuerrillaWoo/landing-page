@@ -20,13 +20,13 @@ body {
     gap: 18px;
 }
 
-.main-content, .card-container, 
-.quote-container, .action-container {
+.hero-section, .card-section, 
+.quote-section, .action-section {
     flex: 1;
     display: flex;
 }
 
-.main-content {
+.hero-section {
     background-color: #1F2937;
     padding: 144px;
     /* flex-flow: row wrap; */
@@ -43,7 +43,7 @@ body {
     background-color: grey;
 }
 
-.action-container {
+.action-section {
     margin: 144px;
 }
 
@@ -78,24 +78,24 @@ a:hover {
     font-size: 18px;
 }
 
-.card-container h2 {
+.card-section h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
 }
 
-.quote-container {
+.quote-section {
     background-color: #E5E7EB;
 }
 
-.quote-container p {
+.quote-section p {
     color: #1F2937;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
 }
 
-button, .action-container {
+button, .action-section {
     background-color: #3882F6;
 }
 
