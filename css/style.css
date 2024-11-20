@@ -48,7 +48,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    padding: 144px;
+    padding: 48px 144px 96px 144px;
 }
 
 .card-container {
@@ -79,7 +79,7 @@ body {
 }
 
 .quote-section {
-    padding: 318px;
+    padding: 144px 318px;
     display: flex;
     flex-direction: column;
 }
@@ -155,4 +155,6 @@ footer {
     background-color: #1F2937;
     color: #E5E7EB;
     text-align: center;
+    font-size: 18px;
+    padding: 2em;
 }
