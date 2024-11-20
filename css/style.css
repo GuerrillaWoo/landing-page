@@ -18,14 +18,12 @@ body {
 .link-list {
     display: flex;
     gap: 18px;
-    margin-right: 144px;
 }
 
 .main-content, .card-container, 
 .quote-container, .action-container {
     flex: 1;
     display: flex;
-    border: 2px solid black;
 }
 
 .main-content {
@@ -45,10 +43,22 @@ body {
     background-color: grey;
 }
 
+.action-container {
+    margin: 144px;
+}
+
 /* just colors and font styles */
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header a {
+    color: #E5E7EB;
 }
 
 .header-logo {
@@ -68,3 +78,28 @@ a {
     font-size: 18px;
 }
 
+.card-container h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-container p {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+button, .action-container {
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
