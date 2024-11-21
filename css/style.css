@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    padding: 24px 96px;
+    padding: 24px 72px;
     background-color: #1F2937;
     display: flex;
     gap: 32px;
@@ -40,7 +40,7 @@ body {
 }
 
 .hero-content {
-    max-width: 400px;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,6 +48,7 @@ body {
 }
 
 .hero-content button {
+    font-family: inherit;
     color: #F9FAF8;
     font-weight: 700;
     border: 1px none;
@@ -56,7 +57,7 @@ body {
 }
 
 .hero-image {
-    max-width: 400px;
+    max-width: 500px;
     height: 212px;
     background-color: grey;
 }
@@ -115,7 +116,35 @@ body {
 }
 
 .action-section {
+    font-size: 18px;
     margin: 144px;
+    padding: 48px 72px;
+    color: #E5E7EB;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-text > :first-child {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-section button {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 2em;
+    font-size: 18px;
+    font-weight: 700;
+    color: inherit;
+    font-family: inherit;
+    border: 2.5px solid white;
+    border-radius: 6px;
+    padding: 6px 36px;
 }
 
 /* just colors and font styles */
